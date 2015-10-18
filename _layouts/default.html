@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ryan wang</title>
+    <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- google analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-47452844-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li>ryan wang ||</li>
+          <li><a href="/">home</a>
+        </ul>
+      </div>
+      <div class="body">
+        {{ content }}
+      </div>
+      <div class="footer">
+        <p>
+        Find me on <i class="fa fa-github"></i> <a href="https://github.com/wgyn">GitHub</a>, <i class="fa fa-twitter"></i> <a href="https://twitter.com/ryw90">Twitter</a>, <i class="fa fa-male"></i> <a href="https://www.strava.com/athletes/6892123">Strava</a>, <i class="fa fa-book"></i> <a href="http://www.librarything.com/profile/rywang">LibraryThing</a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

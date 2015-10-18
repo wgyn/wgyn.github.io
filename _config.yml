@@ -1,0 +1,8 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+collections:
+- talks
+
+# Build settings
+markdown: kramdown
