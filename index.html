@@ -18,7 +18,7 @@ layout: default
   <h1>Talks/Workshops/Other</h1>
   <ul class="entries">
     {% for post in site.talks reversed %}
-    <li><span>{{ post.date }}</span><a href="{{ post.link }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date: "%Y-%m-%d"}}</span><a href="{{ post.link }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
