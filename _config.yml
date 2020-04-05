@@ -4,5 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 collections:
 - talks
 
+plugins:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
