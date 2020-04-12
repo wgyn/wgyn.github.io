@@ -1,14 +1,23 @@
 /* fonts */
-@import url(http://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,300,400,600,700);
 
 /* general style */
 body          { font: 13px 'IBM Plex Sans', sans-serif; font-weight: 300; }
-h1			      { margin: 25px 0 25px 0; font-size: 15px; }
+blockquote    { font-size: 125%; border-left: 1px solid; margin-left: 0; padding-left: 16px }
+h1            { margin: 25px 0 25px 0; font-size: 15px; }
+h2, h3        { margin-bottom: 0px; margin-top: 25px; }
 a             { color: black; font-weight: 400; }
 a:hover       { color: #70A19A; }
+p code        { background: rgba(135, 131, 120, 0.15); color: #EB5757; padding: 0.2em 0.4em; }
+pre           { background: rgba(135, 131, 120, 0.15); padding: 15px; }
 span          { margin: 0 10px 0 0; }
 
-ul.entries    { list-style: none; margin: 5px 0 5px -15px; }
+ul.entries      { list-style: none; margin: 5px 0 5px -15px; }
+
+/* table of contents */
+ul#markdown-toc                     { padding-left: 0px; margin-bottom: 25px; }
+ul#markdown-toc a                   { font-weight: 300; color: #AEB6AF; }
+ul#markdown-toc, ul#markdown-toc ul { list-style-type: none; }
 
 /* layout elements */
 div.container               { margin: 25px auto; padding 0 2em; max-width: 650px; }
