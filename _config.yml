@@ -5,6 +5,7 @@ collections:
 - talks
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Build settings
