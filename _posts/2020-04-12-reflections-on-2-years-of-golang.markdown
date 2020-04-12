@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Reflections on 2 Years of Golang
+description: Reflections from using Go in production for 2 years at work
 date: 2020-04-12
+image: /static/images/gopher.png
 ---
 
 Click [here](https://www.notion.so/wgyn/Reflections-on-2-Years-of-Go-dc8c35b2c64741b08be4505a71def382){:target="_blank"} to read from Notion.
