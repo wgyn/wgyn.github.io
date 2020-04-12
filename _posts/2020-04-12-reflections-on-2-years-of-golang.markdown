@@ -4,6 +4,8 @@ title: Reflections on 2 Years of Golang
 date: 2020-04-12
 ---
 
+Click [here](https://www.notion.so/wgyn/Reflections-on-2-Years-of-Go-dc8c35b2c64741b08be4505a71def382){:target="_blank"} to read from Notion.
+
 * TOC
 {:toc}
 
