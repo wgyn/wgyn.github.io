@@ -86,12 +86,12 @@ The `GOPATH` directory is supposed to magically contain all code. I think (specu
 
 Now I just have the below in my `.profile` on my work machine:
 
-~~~ Shell
+``` Shell
   export GOPATH=$HOME/go
   export PATH="$GOPATH/bin:$PATH"
 
   cd $GOPATH/src/github.com/assembledhq/assembled
-~~~
+```
 
 ### Errors are hard to introspect
 
@@ -107,7 +107,7 @@ It's tedious to model values that are empty or omitted versus intentionally set 
 
 ### Lack of object-oriented expressiveness
 
-Go suggests interfaces and type embedding to replicate useful object-oriented behavior that comes naturally in other languages. These tools turn out to be super limiting and, in various cases, we've accidentally worked around the type system. This leads to a temptatio
+Go suggests interfaces and type embedding to replicate useful object-oriented behavior that comes naturally in other languages. These tools turn out to be super limiting and, in various cases, we've accidentally worked around the type system.
 
 This one's been covered at length in the Go community. Here's a really good summary: [https://blog.golang.org/why-generics](https://blog.golang.org/why-generics).
 
